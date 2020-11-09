@@ -20,8 +20,8 @@ class StudentTest {
 
     @BeforeEach
     void setUp() {
-        course1 = new Course("Engineering",new ArrayList<>(),new LocalDate(2020,9,28),new LocalDate(2020,12,18));
-        course2 = new Course("CS&IT",new ArrayList<>(),new LocalDate(2020,9,28),new LocalDate(2020,12,18));
+        course1 = new Course("Engineering",new ArrayList<>(),new LocalDate(2020,9,28),new LocalDate(2020,12,18));   //create sample courses
+        course2 = new Course("CS&IT",new ArrayList<>(),new LocalDate(2020,9,28),new LocalDate(2020,12,18));         //create sample courses
 
         courses.add(course1);
 
