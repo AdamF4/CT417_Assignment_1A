@@ -44,9 +44,11 @@ public class Student {
         return courses;
     }
 
+    //Calculate and return age with DOB and current date
     public int getAge() {
         return Years.yearsBetween(DOB, LocalDate.now()).getYears();
     }
+    //Create and return username with name and age
     public String getUsername() {
         return getName() + getAge();
     }
