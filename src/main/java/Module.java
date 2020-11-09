@@ -1,9 +1,26 @@
 public class Module {
     private String mName;
-    private String ID;
+    private String mID;
 
-    Module(String mName, String ID){
-        this.mName=mName;
-        this.ID=ID;
+    Module(String name, String ID){
+        this.mName=name;
+        this.mID=ID;
     }
+
+    //setters
+    public void setName(String name) {
+        this.mName = name;
+    }
+    public void setID(String ID) {
+        this.mID = ID;
+    }
+
+    //getters
+    public String getID() {
+        return mID;
+    }
+    public String getName() {
+        return mName;
+    }
+
 }
